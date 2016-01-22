@@ -14,7 +14,13 @@ To do this there are two convenience scripts:
 * createDatabaseAndUser.sh
 * dropDatabaseAndUser.sh
 
+__Execution using Maven__
 To execute the example just execute the create-script and then you can execute
 Flyway using Maven like this
 
 mvn clean compile flyway:migrate
+
+__Execution using the Command Line Tool__
+
+Install the Flyway Command Line Tool according to [these instructions](http://flywaydb.org/documentation/commandline/)
+
