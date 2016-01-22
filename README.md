@@ -25,3 +25,7 @@ mvn clean compile flyway:migrate
 
 Install the Flyway Command Line Tool according to [these instructions](http://flywaydb.org/documentation/commandline/)
 
+Then execute the following command from the command line. The configuration file *flyway.conf* contains all the needed configuration for execution from the command line. The good thing is that Flyway already comes with JDBC drivers for [a good amount of database systems](http://flywaydb.org/documentation/commandline/) including PostgreSQL. Thus there is no need to install anything in addition here.
+
+flyway migrate
+
