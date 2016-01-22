@@ -29,7 +29,8 @@
                 <configuration>
                     <sqlMigrationSeparator>_</sqlMigrationSeparator>
                     <locations>
-                        <location>filesystem:db/migration</location>
+                        <location>filesystem:db/migration_v1</location>
+                        <location>filesystem:db/migration_v2</location>
                     </locations>
                     <url>${database.url}</url>
                     <user>${database.user}</user>
