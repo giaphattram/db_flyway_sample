@@ -27,7 +27,7 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>${flyway.version}</version>
                 <configuration>
-                    <sqlMigrationSeparator>_</sqlMigrationSeparator>
+                    <sqlMigrationSeparator>__</sqlMigrationSeparator>
                     <locations>
                         <location>filesystem:src/main/resources/flyway/migration_v1</location>
                         <location>filesystem:src/main/resources/flyway/migration_v2</location>
