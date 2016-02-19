@@ -3,7 +3,7 @@
 This is an easy example how to create database migrations with [Flyway](http://flywaydb.org/)
 
 It is based on PostgreSQL database and should run right away after checking it out,
-if your postgres-server is up and running. You might need to add assword to the
+if your postgres-server is up and running. You might need to add password to the
 create- and drop-scripts depending on your database configuration for the postgres-user.
 Of course you clean also easily switch the example to make use of another database by
 changing JDBC imports and URL.
