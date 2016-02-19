@@ -5,7 +5,7 @@ This is an easy example how to create database migrations with [Flyway](http://f
 It is based on PostgreSQL database and should run right away after checking it out,
 if your postgres-server is up and running. You might need to add password to the
 create- and drop-scripts depending on your database configuration for the postgres-user.
-Of course you clean also easily switch the example to make use of another database by
+Of course you can also easily switch the example to make use of another database by
 changing JDBC imports and URL.
 
 As it is not possible to create a new database with Flyway this needs to be done
