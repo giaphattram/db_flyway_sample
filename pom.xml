@@ -11,7 +11,7 @@
         <postgres.driver.version>9.2-1002.jdbc4</postgres.driver.version>
         <database.url>jdbc:postgresql://localhost:5432/flywaydemo</database.url>
         <database.user>flywaydemo</database.user>
-        <databese.password>flywaydemo</databese.password>
+        <database.password>flywaydemo</database.password>
     </properties>
     <dependencies>
         <dependency>
